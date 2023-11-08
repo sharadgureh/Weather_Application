@@ -1,0 +1,181 @@
+
+    /* background: linear-gradient(135deg, rgb(46, 59, 46), rgb(33, 33, 103)); */
+    body {
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 200% 200%;
+        animation: gradient 15s ease infinite;
+        height: 100vh;
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
+
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+#project_name {
+    font-family: Rubik,sans-serif;;
+    margin: 40% 30%;
+    margin-top: 15px;
+    margin-bottom: -90px;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    position: relative;
+    overflow: hidden;
+    color: #222222;
+}
+
+
+#project_name::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 3px;
+    background: #7985d2;
+    transform: scaleX(0);
+    transform-origin: left center;
+    transition: transform 0.6s;
+}
+
+#project_name:hover::after {
+    transform: scaleX(1);
+    /* Scale the underline to full width on hover */
+}
+
+.card {
+    border: solid black 2px;
+    box-shadow: 5px 10px 10px rgba(95, 80, 80,.4);
+    width: 95%;
+    max-width: 470px;
+    /* background: linear-gradient(135deg, rgb(106, 160, 106), rgb(66, 66, 128));
+     */
+     background-color: #1e1f26;
+    margin-top: 110px;
+    margin-left: 35%;
+    border-radius: 30px;
+    text-align: center;
+    padding: 40px 40px;
+    height: 650px;
+    transition: background-color 0.3s;
+
+}
+
+.searchbar {
+    display: flex;
+}
+
+#textbar {
+    padding-left: 20px;
+
+    outline: 0%;
+    width: 300px;
+    height: 60px;
+    display: flex;
+    margin-right: 9px;
+    border-radius: 30px;
+
+}
+
+#searchbutton {
+    display: flex;
+    outline: 0%;
+    width: 65px;
+    height: 60px;
+    border-radius: 300px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+#searchbutton:hover {
+    background-color: #1a9efd63;
+}
+
+#searchbutton:active {
+    scale: 0.9;
+}
+
+.city,
+.temp {
+    color: white;
+    font-weight: 300px;
+
+}
+
+.weather-icon {
+    width: 200px;
+    margin-top: 30px;
+}
+
+.weather h1 {
+    font-size: 80px;
+    font-weight: 500px;
+}
+
+.weather h2 {
+    font-size: 40px;
+    font-weight: 300px;
+    margin-top: -10px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 0 20px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: white;
+}
+
+.col img {
+    width: 40px;
+    margin-right: 13px;
+}
+
+.humidity,
+.wind {
+    font-size: 25px;
+    /* margin-top: cap */
+
+}
+#Nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 90px;
+    margin-bottom: -100px;
+    
+    
+}
+#github_svg,#home_svg,#linkedin_svg{
+    
+    height: 80px;
+    width: 40px;
+    color: black;
+    transform: color0.4s;
+}
+
+
