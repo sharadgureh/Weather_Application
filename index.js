@@ -14,19 +14,19 @@ async function check_weather(city_name) {
     document.querySelector(".humidity").innerHTML = result.main.humidity + "%";
     document.querySelector(".wind").innerHTML = result.wind.speed + "Km/h";
     if (result.weather[0].main == "Clouds") {
-        weathericon.src = "image/images/clouds.png";
+        weathericon.src = "/clouds.png";
     }
     else if (result.weather[0].main == "Clear") {
-        weathericon.src = "image/images/clear.png";
+        weathericon.src = "/clear.png";
     }
     else if (result.weather[0].main == "Rain") {
-        weathericon.src = "image/images/rain.png";
+        weathericon.src = "/rain.png";
     }
     else if (result.weather[0].main == "Drizzle") {
-        weathericon.src = "image/images/drizzle.png";
+        weathericon.src = "/drizzle.png";
     }
     else if (result.weather[0].main == "Mist") {
-        weathericon.src = "image/images/mist.png";
+        weathericon.src = "/mist.png";
     }
 }
 searchbtn = addEventListener('click', () => {
