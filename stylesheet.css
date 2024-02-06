@@ -33,7 +33,7 @@
     margin: 40% 30%;
     margin-top: 15px;
     margin-bottom: -90px;
-    font-size: 70px;
+    font-size: 100px;
     display: flex;
     justify-content: center;
     font-weight: 400;
@@ -64,13 +64,12 @@
 .card {
     border: solid black 2px;
     box-shadow: 5px 10px 10px rgba(95, 80, 80,.4);
-    width: 95%;
+    width: 100%;
     max-width: 470px;
-    /* background: linear-gradient(135deg, rgb(106, 160, 106), rgb(66, 66, 128));
-     */
+    /* background: linear-gradient(135deg, rgb(106, 160, 106), rgb(66, 66, 128)); */
      background-color: #1e1f26;
-    margin-top: 110px;
-    margin-left: 35%;
+    margin-top: 130px;
+    margin-left: 38%;
     border-radius: 30px;
     text-align: center;
     padding: 40px 40px;

@@ -17,16 +17,16 @@ async function check_weather(city_name) {
         weathericon.src = "/clouds.png";
     }
     else if (result.weather[0].main == "Clear") {
-        weathericon.src = "/clear.png";
+        weathericon.src = "./assest/clear.png";
     }
     else if (result.weather[0].main == "Rain") {
-        weathericon.src = "/rain.png";
+        weathericon.src = "./assest/rain.png";
     }
     else if (result.weather[0].main == "Drizzle") {
-        weathericon.src = "/drizzle.png";
+        weathericon.src = "./assest/drizzle.png";
     }
     else if (result.weather[0].main == "Mist") {
-        weathericon.src = "/mist.png";
+        weathericon.src = "./assest/mist.png";
     }
 }
 searchbtn = addEventListener('click', () => {
