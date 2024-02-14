@@ -21,8 +21,8 @@ This Weather Application is a web-based tool designed to provide users with real
 
 1. Clone the repository to your local machine.
 2. Obtain an API key from OpenWeatherMap by signing up for an account on their website.
-3. Create a file named `config.js` in the project directory.
-4. Inside `config.js`, define a variable named `API_KEY` and assign your OpenWeatherMap API key to it.
+3. Create a file named `index.js` in the project directory.
+4. Inside `index.js`, define a variable named `API_KEY` and assign your OpenWeatherMap API key to it.
    <javascript
    const API_KEY = 'YOUR_API_KEY';
    >
