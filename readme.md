@@ -26,7 +26,7 @@ This Weather Application is a web-based tool designed to provide users with real
    <javascript
    const API_KEY = 'YOUR_API_KEY';
    >
-5. Save the `config.js` file.
+5. Save the `index.js` file.
 6. Open the `index.html` file in a web browser to launch the application.
 
 ### Usage
